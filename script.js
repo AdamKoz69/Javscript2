@@ -110,7 +110,7 @@ function decimals(){
         }
     }
 
-    if(elements[0]== elements[1] == elements[2]){
+    if((elements[0] == elements[1]) && (elements[1] == elements[2]) && (elements[2] == elements[0])){
         out.innerHTML = "All numbers match"
         return;
     } else if(elements[0]==elements[1]){
