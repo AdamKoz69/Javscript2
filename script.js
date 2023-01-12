@@ -112,13 +112,18 @@ function decimals(){
 
     if(elements[0]== elements[1] == elements[2]){
         out.innerHTML = "All numbers match"
+        return;
     } else if(elements[0]==elements[1]){
         out.innerHTML = "Two numbers match"
+        return;
     } else if(elements[1]==elements[2]){
         out.innerHTML = "Two numbers match"
+        return;
     } else if(elements[0]==elements[2]){
         out.innerHTML = "Two numbers match"
+        return;
     } else {
         out.innerHTML = "No numbers match"
+        return;
     }
 }
